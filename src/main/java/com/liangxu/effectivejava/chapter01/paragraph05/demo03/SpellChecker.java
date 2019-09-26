@@ -5,6 +5,7 @@ import java.util.Objects;
 
 // Dependency injection provides flexibility and testability
 public class SpellChecker {
+
     private final String dictionary;
 
     public SpellChecker(String dictionary) {
